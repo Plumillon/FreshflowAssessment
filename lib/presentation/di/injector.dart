@@ -1,3 +1,6 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:freshflow_assessment/data/repositories/item_repository_impl.dart';
+import 'package:freshflow_assessment/domain/repositories/item_repository.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 import 'package:logger/logger.dart';
@@ -34,6 +37,14 @@ abstract class AppModule {
 }
 
 @module
-abstract class RepositoriesModule {
+abstract class NetworkModule {
+  @injectable
+  FirebaseFirestore get firestore => FirebaseFirestore.instance;
+}
 
+@module
+abstract class RepositoriesModule {
+  @lazySingleton
+  ItemRepository itemRepository(ItemRepositoryImpl itemRepositoryImpl) =>
+      itemRepositoryImpl;
 }

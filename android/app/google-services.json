@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "587690443797",
+    "project_id": "flutter-take-home-test",
+    "storage_bucket": "flutter-take-home-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587690443797:android:a913893ed1fcb6c082fa1c",
+        "android_client_info": {
+          "package_name": "ai.freshflow.fluttertakehometest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587690443797-9c6d74do6qikasva8i7soml46fuoc1tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZs8Kyz2npDNK3t8jhknXtJhyEh5hZt8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587690443797-9c6d74do6qikasva8i7soml46fuoc1tr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "587690443797-a9b0u39r3ju4b2ebguk0fk7al6famgup.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ai.freshflow.fluttertakehometest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

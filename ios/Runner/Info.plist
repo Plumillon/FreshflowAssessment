@@ -44,4 +44,9 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 </dict>
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+</dict>
 </plist>
