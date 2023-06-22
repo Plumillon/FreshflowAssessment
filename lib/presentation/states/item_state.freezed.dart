@@ -1,7 +1,7 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'item_state.dart';
 
@@ -12,29 +12,7 @@ part of 'item_state.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$ItemStateTearOff {
-  const _$ItemStateTearOff();
-
-  ItemStateInitial initial() {
-    return const ItemStateInitial();
-  }
-
-  ItemStateLoading loading() {
-    return const ItemStateLoading();
-  }
-
-  ItemStateLoaded loaded({required List<ItemModel> items}) {
-    return ItemStateLoaded(
-      items: items,
-    );
-  }
-}
-
-/// @nodoc
-const $ItemState = _$ItemStateTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$ItemState {
@@ -47,9 +25,9 @@ mixin _$ItemState {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult Function()? initial,
-    TResult Function()? loading,
-    TResult Function(List<ItemModel> items)? loaded,
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(List<ItemModel> items)? loaded,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -69,9 +47,9 @@ mixin _$ItemState {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult Function(ItemStateInitial value)? initial,
-    TResult Function(ItemStateLoading value)? loading,
-    TResult Function(ItemStateLoaded value)? loaded,
+    TResult? Function(ItemStateInitial value)? initial,
+    TResult? Function(ItemStateLoading value)? loading,
+    TResult? Function(ItemStateLoaded value)? loaded,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -87,34 +65,34 @@ mixin _$ItemState {
 /// @nodoc
 abstract class $ItemStateCopyWith<$Res> {
   factory $ItemStateCopyWith(ItemState value, $Res Function(ItemState) then) =
-      _$ItemStateCopyWithImpl<$Res>;
+      _$ItemStateCopyWithImpl<$Res, ItemState>;
 }
 
 /// @nodoc
-class _$ItemStateCopyWithImpl<$Res> implements $ItemStateCopyWith<$Res> {
+class _$ItemStateCopyWithImpl<$Res, $Val extends ItemState>
+    implements $ItemStateCopyWith<$Res> {
   _$ItemStateCopyWithImpl(this._value, this._then);
 
-  final ItemState _value;
   // ignore: unused_field
-  final $Res Function(ItemState) _then;
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 }
 
 /// @nodoc
-abstract class $ItemStateInitialCopyWith<$Res> {
-  factory $ItemStateInitialCopyWith(
-          ItemStateInitial value, $Res Function(ItemStateInitial) then) =
-      _$ItemStateInitialCopyWithImpl<$Res>;
+abstract class _$$ItemStateInitialCopyWith<$Res> {
+  factory _$$ItemStateInitialCopyWith(
+          _$ItemStateInitial value, $Res Function(_$ItemStateInitial) then) =
+      __$$ItemStateInitialCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$ItemStateInitialCopyWithImpl<$Res> extends _$ItemStateCopyWithImpl<$Res>
-    implements $ItemStateInitialCopyWith<$Res> {
-  _$ItemStateInitialCopyWithImpl(
-      ItemStateInitial _value, $Res Function(ItemStateInitial) _then)
-      : super(_value, (v) => _then(v as ItemStateInitial));
-
-  @override
-  ItemStateInitial get _value => super._value as ItemStateInitial;
+class __$$ItemStateInitialCopyWithImpl<$Res>
+    extends _$ItemStateCopyWithImpl<$Res, _$ItemStateInitial>
+    implements _$$ItemStateInitialCopyWith<$Res> {
+  __$$ItemStateInitialCopyWithImpl(
+      _$ItemStateInitial _value, $Res Function(_$ItemStateInitial) _then)
+      : super(_value, _then);
 }
 
 /// @nodoc
@@ -130,7 +108,7 @@ class _$ItemStateInitial implements ItemStateInitial {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is ItemStateInitial);
+        (other.runtimeType == runtimeType && other is _$ItemStateInitial);
   }
 
   @override
@@ -149,9 +127,9 @@ class _$ItemStateInitial implements ItemStateInitial {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult Function()? initial,
-    TResult Function()? loading,
-    TResult Function(List<ItemModel> items)? loaded,
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(List<ItemModel> items)? loaded,
   }) {
     return initial?.call();
   }
@@ -183,9 +161,9 @@ class _$ItemStateInitial implements ItemStateInitial {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult Function(ItemStateInitial value)? initial,
-    TResult Function(ItemStateLoading value)? loading,
-    TResult Function(ItemStateLoaded value)? loaded,
+    TResult? Function(ItemStateInitial value)? initial,
+    TResult? Function(ItemStateLoading value)? loading,
+    TResult? Function(ItemStateLoaded value)? loaded,
   }) {
     return initial?.call(this);
   }
@@ -210,21 +188,19 @@ abstract class ItemStateInitial implements ItemState {
 }
 
 /// @nodoc
-abstract class $ItemStateLoadingCopyWith<$Res> {
-  factory $ItemStateLoadingCopyWith(
-          ItemStateLoading value, $Res Function(ItemStateLoading) then) =
-      _$ItemStateLoadingCopyWithImpl<$Res>;
+abstract class _$$ItemStateLoadingCopyWith<$Res> {
+  factory _$$ItemStateLoadingCopyWith(
+          _$ItemStateLoading value, $Res Function(_$ItemStateLoading) then) =
+      __$$ItemStateLoadingCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$ItemStateLoadingCopyWithImpl<$Res> extends _$ItemStateCopyWithImpl<$Res>
-    implements $ItemStateLoadingCopyWith<$Res> {
-  _$ItemStateLoadingCopyWithImpl(
-      ItemStateLoading _value, $Res Function(ItemStateLoading) _then)
-      : super(_value, (v) => _then(v as ItemStateLoading));
-
-  @override
-  ItemStateLoading get _value => super._value as ItemStateLoading;
+class __$$ItemStateLoadingCopyWithImpl<$Res>
+    extends _$ItemStateCopyWithImpl<$Res, _$ItemStateLoading>
+    implements _$$ItemStateLoadingCopyWith<$Res> {
+  __$$ItemStateLoadingCopyWithImpl(
+      _$ItemStateLoading _value, $Res Function(_$ItemStateLoading) _then)
+      : super(_value, _then);
 }
 
 /// @nodoc
@@ -240,7 +216,7 @@ class _$ItemStateLoading implements ItemStateLoading {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is ItemStateLoading);
+        (other.runtimeType == runtimeType && other is _$ItemStateLoading);
   }
 
   @override
@@ -259,9 +235,9 @@ class _$ItemStateLoading implements ItemStateLoading {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult Function()? initial,
-    TResult Function()? loading,
-    TResult Function(List<ItemModel> items)? loaded,
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(List<ItemModel> items)? loaded,
   }) {
     return loading?.call();
   }
@@ -293,9 +269,9 @@ class _$ItemStateLoading implements ItemStateLoading {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult Function(ItemStateInitial value)? initial,
-    TResult Function(ItemStateLoading value)? loading,
-    TResult Function(ItemStateLoaded value)? loaded,
+    TResult? Function(ItemStateInitial value)? initial,
+    TResult? Function(ItemStateLoading value)? loading,
+    TResult? Function(ItemStateLoaded value)? loaded,
   }) {
     return loading?.call(this);
   }
@@ -320,30 +296,30 @@ abstract class ItemStateLoading implements ItemState {
 }
 
 /// @nodoc
-abstract class $ItemStateLoadedCopyWith<$Res> {
-  factory $ItemStateLoadedCopyWith(
-          ItemStateLoaded value, $Res Function(ItemStateLoaded) then) =
-      _$ItemStateLoadedCopyWithImpl<$Res>;
+abstract class _$$ItemStateLoadedCopyWith<$Res> {
+  factory _$$ItemStateLoadedCopyWith(
+          _$ItemStateLoaded value, $Res Function(_$ItemStateLoaded) then) =
+      __$$ItemStateLoadedCopyWithImpl<$Res>;
+  @useResult
   $Res call({List<ItemModel> items});
 }
 
 /// @nodoc
-class _$ItemStateLoadedCopyWithImpl<$Res> extends _$ItemStateCopyWithImpl<$Res>
-    implements $ItemStateLoadedCopyWith<$Res> {
-  _$ItemStateLoadedCopyWithImpl(
-      ItemStateLoaded _value, $Res Function(ItemStateLoaded) _then)
-      : super(_value, (v) => _then(v as ItemStateLoaded));
+class __$$ItemStateLoadedCopyWithImpl<$Res>
+    extends _$ItemStateCopyWithImpl<$Res, _$ItemStateLoaded>
+    implements _$$ItemStateLoadedCopyWith<$Res> {
+  __$$ItemStateLoadedCopyWithImpl(
+      _$ItemStateLoaded _value, $Res Function(_$ItemStateLoaded) _then)
+      : super(_value, _then);
 
-  @override
-  ItemStateLoaded get _value => super._value as ItemStateLoaded;
-
+  @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? items = freezed,
+    Object? items = null,
   }) {
-    return _then(ItemStateLoaded(
-      items: items == freezed
-          ? _value.items
+    return _then(_$ItemStateLoaded(
+      items: null == items
+          ? _value._items
           : items // ignore: cast_nullable_to_non_nullable
               as List<ItemModel>,
     ));
@@ -353,10 +329,16 @@ class _$ItemStateLoadedCopyWithImpl<$Res> extends _$ItemStateCopyWithImpl<$Res>
 /// @nodoc
 
 class _$ItemStateLoaded implements ItemStateLoaded {
-  const _$ItemStateLoaded({required this.items});
+  const _$ItemStateLoaded({required final List<ItemModel> items})
+      : _items = items;
 
+  final List<ItemModel> _items;
   @override
-  final List<ItemModel> items;
+  List<ItemModel> get items {
+    if (_items is EqualUnmodifiableListView) return _items;
+    // ignore: implicit_dynamic_type
+    return EqualUnmodifiableListView(_items);
+  }
 
   @override
   String toString() {
@@ -367,18 +349,19 @@ class _$ItemStateLoaded implements ItemStateLoaded {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is ItemStateLoaded &&
-            const DeepCollectionEquality().equals(other.items, items));
+            other is _$ItemStateLoaded &&
+            const DeepCollectionEquality().equals(other._items, _items));
   }
 
   @override
   int get hashCode =>
-      Object.hash(runtimeType, const DeepCollectionEquality().hash(items));
+      Object.hash(runtimeType, const DeepCollectionEquality().hash(_items));
 
   @JsonKey(ignore: true)
   @override
-  $ItemStateLoadedCopyWith<ItemStateLoaded> get copyWith =>
-      _$ItemStateLoadedCopyWithImpl<ItemStateLoaded>(this, _$identity);
+  @pragma('vm:prefer-inline')
+  _$$ItemStateLoadedCopyWith<_$ItemStateLoaded> get copyWith =>
+      __$$ItemStateLoadedCopyWithImpl<_$ItemStateLoaded>(this, _$identity);
 
   @override
   @optionalTypeArgs
@@ -393,9 +376,9 @@ class _$ItemStateLoaded implements ItemStateLoaded {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult Function()? initial,
-    TResult Function()? loading,
-    TResult Function(List<ItemModel> items)? loaded,
+    TResult? Function()? initial,
+    TResult? Function()? loading,
+    TResult? Function(List<ItemModel> items)? loaded,
   }) {
     return loaded?.call(items);
   }
@@ -427,9 +410,9 @@ class _$ItemStateLoaded implements ItemStateLoaded {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult Function(ItemStateInitial value)? initial,
-    TResult Function(ItemStateLoading value)? loading,
-    TResult Function(ItemStateLoaded value)? loaded,
+    TResult? Function(ItemStateInitial value)? initial,
+    TResult? Function(ItemStateLoading value)? loading,
+    TResult? Function(ItemStateLoaded value)? loaded,
   }) {
     return loaded?.call(this);
   }
@@ -450,11 +433,11 @@ class _$ItemStateLoaded implements ItemStateLoaded {
 }
 
 abstract class ItemStateLoaded implements ItemState {
-  const factory ItemStateLoaded({required List<ItemModel> items}) =
+  const factory ItemStateLoaded({required final List<ItemModel> items}) =
       _$ItemStateLoaded;
 
   List<ItemModel> get items;
   @JsonKey(ignore: true)
-  $ItemStateLoadedCopyWith<ItemStateLoaded> get copyWith =>
+  _$$ItemStateLoadedCopyWith<_$ItemStateLoaded> get copyWith =>
       throw _privateConstructorUsedError;
 }
