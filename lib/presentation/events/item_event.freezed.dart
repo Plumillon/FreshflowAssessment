@@ -1,7 +1,7 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
 // ignore_for_file: type=lint
-// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'item_event.dart';
 
@@ -12,19 +12,7 @@ part of 'item_event.dart';
 T _$identity<T>(T value) => value;
 
 final _privateConstructorUsedError = UnsupportedError(
-    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
-
-/// @nodoc
-class _$ItemEventTearOff {
-  const _$ItemEventTearOff();
-
-  ItemEventLoad load() {
-    return const ItemEventLoad();
-  }
-}
-
-/// @nodoc
-const $ItemEvent = _$ItemEventTearOff();
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
 
 /// @nodoc
 mixin _$ItemEvent {
@@ -35,7 +23,7 @@ mixin _$ItemEvent {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult Function()? load,
+    TResult? Function()? load,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -51,7 +39,7 @@ mixin _$ItemEvent {
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult Function(ItemEventLoad value)? load,
+    TResult? Function(ItemEventLoad value)? load,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -65,34 +53,34 @@ mixin _$ItemEvent {
 /// @nodoc
 abstract class $ItemEventCopyWith<$Res> {
   factory $ItemEventCopyWith(ItemEvent value, $Res Function(ItemEvent) then) =
-      _$ItemEventCopyWithImpl<$Res>;
+      _$ItemEventCopyWithImpl<$Res, ItemEvent>;
 }
 
 /// @nodoc
-class _$ItemEventCopyWithImpl<$Res> implements $ItemEventCopyWith<$Res> {
+class _$ItemEventCopyWithImpl<$Res, $Val extends ItemEvent>
+    implements $ItemEventCopyWith<$Res> {
   _$ItemEventCopyWithImpl(this._value, this._then);
 
-  final ItemEvent _value;
   // ignore: unused_field
-  final $Res Function(ItemEvent) _then;
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
 }
 
 /// @nodoc
-abstract class $ItemEventLoadCopyWith<$Res> {
-  factory $ItemEventLoadCopyWith(
-          ItemEventLoad value, $Res Function(ItemEventLoad) then) =
-      _$ItemEventLoadCopyWithImpl<$Res>;
+abstract class _$$ItemEventLoadCopyWith<$Res> {
+  factory _$$ItemEventLoadCopyWith(
+          _$ItemEventLoad value, $Res Function(_$ItemEventLoad) then) =
+      __$$ItemEventLoadCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$ItemEventLoadCopyWithImpl<$Res> extends _$ItemEventCopyWithImpl<$Res>
-    implements $ItemEventLoadCopyWith<$Res> {
-  _$ItemEventLoadCopyWithImpl(
-      ItemEventLoad _value, $Res Function(ItemEventLoad) _then)
-      : super(_value, (v) => _then(v as ItemEventLoad));
-
-  @override
-  ItemEventLoad get _value => super._value as ItemEventLoad;
+class __$$ItemEventLoadCopyWithImpl<$Res>
+    extends _$ItemEventCopyWithImpl<$Res, _$ItemEventLoad>
+    implements _$$ItemEventLoadCopyWith<$Res> {
+  __$$ItemEventLoadCopyWithImpl(
+      _$ItemEventLoad _value, $Res Function(_$ItemEventLoad) _then)
+      : super(_value, _then);
 }
 
 /// @nodoc
@@ -108,7 +96,7 @@ class _$ItemEventLoad implements ItemEventLoad {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is ItemEventLoad);
+        (other.runtimeType == runtimeType && other is _$ItemEventLoad);
   }
 
   @override
@@ -125,7 +113,7 @@ class _$ItemEventLoad implements ItemEventLoad {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult Function()? load,
+    TResult? Function()? load,
   }) {
     return load?.call();
   }
@@ -153,7 +141,7 @@ class _$ItemEventLoad implements ItemEventLoad {
   @override
   @optionalTypeArgs
   TResult? mapOrNull<TResult extends Object?>({
-    TResult Function(ItemEventLoad value)? load,
+    TResult? Function(ItemEventLoad value)? load,
   }) {
     return load?.call(this);
   }
